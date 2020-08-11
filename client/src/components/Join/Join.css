@@ -38,19 +38,25 @@ html, body {
   font-size: 2.5em;
   padding-bottom: 10px;
   border-bottom: 2px solid white;
+  transition: transform .2s; /* Animation */
+  margin: 0 auto;
+}
+
+.heading:hover {
+  transform: scale(1.5);
 }
 
 .button {
-    color: gray !important;
-    text-transform: uppercase;
-    font-size: 15px;
-    text-decoration: none;
-    background:  rgb(207, 255, 95);
-    padding: 20px;
-    border-radius: 5px;
-    display: inline-block;
-    border: none;
-    width: 100%;
+  color: gray !important;
+  text-transform: uppercase;
+  font-size: 15px;
+  text-decoration: none;
+  background:  rgb(207, 255, 95);
+  padding: 20px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  width: 100%;
 }
 
 .mt-20 {
