@@ -10,16 +10,9 @@ const TextContainer = ({ users }) => (
       users
         ? (
           <div>
-            <h1>People Online:</h1>
-            <div className="activeContainer">
-              <h2>
-                {users.map(({name}) => (
-                  <div key={name} className="activeItem">
-                    {name}
-                    <img alt="Online Icon" src={onlineIcon}/>
-                  </div>
-                ))}
-              </h2>
+            <h1>Pick a question:</h1>
+            <div className="cardContainer">
+              <h1>this is where the cards go</h1>
             </div>
           </div>
         )

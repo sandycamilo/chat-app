@@ -7,21 +7,23 @@
     justify-content: space-between;
   }
   
-  .activeContainer {
+  .cardContainer {
     display: flex;
     align-items: center;
     margin-bottom: 50%;
+    border: solid black .5px;
   }
   
+  h1 {
+    font-size: 20px;
+    color: black;
+  }
   .activeItem {
     display: flex;
     align-items: center;
   }
   
-  .activeContainer img {
-    padding-left: 10px;
-  }
-  
+
   .textContainer h1 {
     margin-bottom: 0px;
   }
