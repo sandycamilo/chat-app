@@ -11,18 +11,42 @@
     display: flex;
     align-items: center;
     margin-bottom: 50%;
-    border: solid black .5px;
+    border: solid rgb(247, 241, 241) .5px;
+    width: 500px;
+    height: 512px;
+    position: relative;
+    top: 5px;
+    background-color: #f7f1f1;
   }
   
   h1 {
     font-size: 20px;
     color: black;
+    position: relative;
+    top: -200px;
+    left: 30px;
   }
+
+
   .activeItem {
     display: flex;
     align-items: center;
   }
   
+  .questionbutton {
+    color: #fff !important;
+    text-transform: uppercase;
+    text-decoration: none;
+    background: rgb(17, 148, 255);
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    width: 20%;
+    position: relative;
+    top: -190px;
+    left: 160px;
+  }
+
 
   .textContainer h1 {
     margin-bottom: 0px;

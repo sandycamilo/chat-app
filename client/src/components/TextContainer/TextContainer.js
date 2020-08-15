@@ -10,9 +10,9 @@ const TextContainer = ({ users }) => (
       users
         ? (
           <div>
-            <h1>Pick a question:</h1>
             <div className="cardContainer">
-              <h1>this is where the cards go</h1>
+            <h1>PICK A QUESTION:</h1>
+            <button class="questionbutton" type="submit">Ready?</button>
             </div>
           </div>
         )
